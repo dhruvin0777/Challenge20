@@ -1,0 +1,54 @@
+/* Set a gradient background for the entire page */
+body {
+    background-image: linear-gradient(to bottom, #e1e7f0, #b5c7d3);
+  }
+  
+  /* Center the content in the app container */
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Add a box shadow and padding to the app container */
+  .App-container {
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+  }
+  
+  /* Add a subtle animation to the app logo */
+  .App-logo {
+    height: 8rem;
+    animation: pulse 1.5s infinite ease-in-out alternate;
+  }
+  
+  /* Add some spacing and font styles to the app title */
+  .App-title {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #2a3749;
+    text-align: center;
+  }
+  
+  /* Add some spacing and font styles to the app description */
+  .App-description {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #6c7a92;
+    text-align: center;
+  }
+  
+  /* Define the pulse animation keyframes */
+  @keyframes pulse {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(1.1);
+    }
+  }
+  
